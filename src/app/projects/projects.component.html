@@ -1,0 +1,32 @@
+<div class="row" *ngIf="projects">
+  <div class="col-sm-12 col-md-6 col-lg-6" *ngFor="let project of projects">
+    <div class="card mb-3">
+      <div
+        class="img-bg text-right"
+        [ngStyle]="{ background: 'url(' + project.imgSrc + ') no-repeat 0 0' }"
+      >
+        <div *ngIf="project.buy">
+          <button type="button" class="btn btn-success">Buy Now</button>
+          <br />
+          <span class="badge badge-pill badge-dark">{{
+            project.price | currency
+          }}</span>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <h5 class="card-title">{{ project.title }}</h5>
+        <h6 class="card-subtitle mb-2">{{ project.subtitle }}</h6>
+        <p class="card-offset">{{ project.offset | number }} lbs. offset</p>
+        <p class="card-text">
+          {{ project.description }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row" *ngIf="!projects">
+  <div class="col-sm-12">
+    <p>No projects at this moment!</p>
+  </div>
+</div>

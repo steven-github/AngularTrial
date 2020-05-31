@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "title": "KARIBA RED+- ZIMBABWE",
+      "subtitle": "Reduced Emissions from Deforestation and Degradation",
+      "offset": 957842,
+      "description": "Protects forests and wildlife on the southem shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corridor.",
+      "buy": true,
+      "price": 7.5,
+      "imgSrc": "assets/Tile_Image.jpg"
+    },
+    {
+      "title": "ARCATA SUNNYBRAE TRACT - USA",
+      "subtitle": "Improved Forest Management ",
+      "offset": 710093,
+      "description": "Preservation of large tracts of coastal Redwood and Douglas fir that were slated for harvesting by the timber company. ",
+      "buy": false,
+      "price": 0,
+      "imgSrc": "assets/Tile_Image.jpg"
+    },
+    {
+      "title": "WOLF CREEK LANDFILL - USA",
+      "subtitle": "Landfill Methane Gas Capture",
+      "offset": 4005214,
+      "description": "Landfill methane gas-to-energy facility that provides significant environmental benefits to the surrounding area.",
+      "buy": false,
+      "price": 0,
+      "imgSrc": "assets/Tile_Image.jpg"
+    },
+    {
+      "title": "TERRAPASS MIXED PORTFOLIO - MIXED",
+      "subtitle": "Mixed",
+      "offset": 241967,
+      "description": "Greenhouse gas reductions made at a variety of projects, including: reforestation, methane capture, and renewable energy.",
+      "buy": false,
+      "price": 0,
+      "imgSrc": "assets/Tile_Image.jpg"
+    },
+    {
+      "title": "GASTON COUNTY LANDFILL - USA",
+      "subtitle": "Landfill Methane Gas Capture",
+      "offset": 721663,
+      "description": "Voluntary collection and destruction of landfill methane in two open flares and three internal combustion engine generators.",
+      "buy": false,
+      "price": 0,
+      "imgSrc": "assets/Tile_Image.jpg"
+    },
+    {
+      "title": "MYAMYN CONSERVATION - AUSTRALIA ",
+      "subtitle": "Reforestation & Hyrdopower ",
+      "offset": 995908,
+      "description": "Supporting biodiversity and reforestration in Victoria, Australia; along with carbon reduction from a hyrdopower plant in Vietnam. ",
+      "buy": true,
+      "price": 7.5,
+      "imgSrc": "assets/Tile_Image.jpg"
+    },
+    {
+      "title": "NATURAL PACT LAND ART - COSTA RICA",
+      "subtitle": "Reforestation through Land Art ",
+      "offset": 327,
+      "description": "Unique 'land art' reforestation and conservation of forests that extend an important biological corridor for many endangered species. ",
+      "buy": false,
+      "price": 0,
+      "imgSrc": "assets/Tile_Image.jpg"
+    },
+    {
+      "title": "NATURE LAB URBAN FORESTY - CANADA",
+      "subtitle": "Urban Reforestation ",
+      "offset": 13033,
+      "description": "Rehabilitating degraded urban and sub-urban areas through reforestation, adding significant greenery and restoring biodiversity.",
+      "buy": true,
+      "price": 22.5,
+      "imgSrc": "assets/Tile_Image.jpg"
+    }
+  ]
+}
