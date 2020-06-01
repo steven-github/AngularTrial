@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
+import { Project } from '../project';
 
 @Component({
   selector: 'app-projects',
@@ -7,7 +8,7 @@ import { DataService } from '../data.service';
   styleUrls: ['./projects.component.less'],
 })
 export class ProjectsComponent implements OnInit {
-  projects: Array<object>;
+  projects: Array<Project>;
 
   constructor(private _data: DataService) {}
 

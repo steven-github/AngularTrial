@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import SampleData from '../data/SampleData.json';
+import { Project } from './project';
 
 @Injectable({
   providedIn: 'root',
@@ -7,7 +8,7 @@ import SampleData from '../data/SampleData.json';
 export class DataService {
   constructor() {}
 
-  getData(): Array<object> {
+  getData(): Array<Project> {
     return SampleData.projects;
   }
 }
